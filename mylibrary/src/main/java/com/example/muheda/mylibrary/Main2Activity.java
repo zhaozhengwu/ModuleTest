@@ -10,7 +10,8 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Intent intent=new Intent("com.example.muheda.mynewlibrary.MainNewActivity");
+        Intent intent=new Intent();
+        intent.setAction("com.example.muheda.mynewlibrary.MainNewActivity");
         startActivity(intent);
 
     }

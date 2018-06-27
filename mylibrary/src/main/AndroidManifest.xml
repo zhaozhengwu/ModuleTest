@@ -3,7 +3,9 @@
     package="com.example.muheda.mylibrary">
 
     <application>
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity">
+
+        </activity>
     </application>
 
 </manifest>
