@@ -8,4 +8,8 @@ public class Util {
     public static void put(){
 
     }
+
+    public static void get(){
+
+    }
 }
